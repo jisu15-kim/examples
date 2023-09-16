@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF422DFCCD7A915C80243CB1 /* Pods_NiceSimplePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DAD4F687EF2D6DD6893DF46 /* Pods_NiceSimplePicker.framework */; };
+		F94AB2712AB4BE16007FFE28 /* NiceSimplePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94AB2702AB4BE16007FFE28 /* NiceSimplePickerCell.swift */; };
+		F94AB2732AB4BE58007FFE28 /* NiceSimplePickerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94AB2722AB4BE58007FFE28 /* NiceSimplePickerConfig.swift */; };
+		F94AB2752AB4C486007FFE28 /* AnimalExampleConfigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94AB2742AB4C486007FFE28 /* AnimalExampleConfigs.swift */; };
+		F94AB2772AB4CAC4007FFE28 /* NiceSimplePickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94AB2762AB4CAC4007FFE28 /* NiceSimplePickerDelegate.swift */; };
+		F94AB2792AB5A965007FFE28 /* VehicleExampleConfigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94AB2782AB5A965007FFE28 /* VehicleExampleConfigs.swift */; };
+		F97119692AB4AE140095D02F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97119682AB4AE140095D02F /* AppDelegate.swift */; };
+		F971196B2AB4AE140095D02F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F971196A2AB4AE140095D02F /* SceneDelegate.swift */; };
+		F971196D2AB4AE140095D02F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F971196C2AB4AE140095D02F /* ViewController.swift */; };
+		F97119702AB4AE140095D02F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F971196E2AB4AE140095D02F /* Main.storyboard */; };
+		F97119722AB4AE140095D02F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F97119712AB4AE140095D02F /* Assets.xcassets */; };
+		F97119752AB4AE140095D02F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F97119732AB4AE140095D02F /* LaunchScreen.storyboard */; };
+		F971197D2AB4AE730095D02F /* NiceSimplePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F971197C2AB4AE730095D02F /* NiceSimplePickerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31BE07C275EB9901E0E0745D /* Pods-NiceSimplePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceSimplePicker.release.xcconfig"; path = "Target Support Files/Pods-NiceSimplePicker/Pods-NiceSimplePicker.release.xcconfig"; sourceTree = "<group>"; };
+		46401F5565CF644D51BBFDB0 /* Pods-NiceSimplePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceSimplePicker.debug.xcconfig"; path = "Target Support Files/Pods-NiceSimplePicker/Pods-NiceSimplePicker.debug.xcconfig"; sourceTree = "<group>"; };
+		6DAD4F687EF2D6DD6893DF46 /* Pods_NiceSimplePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiceSimplePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F94AB2702AB4BE16007FFE28 /* NiceSimplePickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceSimplePickerCell.swift; sourceTree = "<group>"; };
+		F94AB2722AB4BE58007FFE28 /* NiceSimplePickerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceSimplePickerConfig.swift; sourceTree = "<group>"; };
+		F94AB2742AB4C486007FFE28 /* AnimalExampleConfigs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalExampleConfigs.swift; sourceTree = "<group>"; };
+		F94AB2762AB4CAC4007FFE28 /* NiceSimplePickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceSimplePickerDelegate.swift; sourceTree = "<group>"; };
+		F94AB2782AB5A965007FFE28 /* VehicleExampleConfigs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleExampleConfigs.swift; sourceTree = "<group>"; };
+		F97119652AB4AE140095D02F /* NiceSimplePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiceSimplePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F97119682AB4AE140095D02F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F971196A2AB4AE140095D02F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F971196C2AB4AE140095D02F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F971196F2AB4AE140095D02F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F97119712AB4AE140095D02F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F97119742AB4AE140095D02F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F97119762AB4AE140095D02F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F971197C2AB4AE730095D02F /* NiceSimplePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceSimplePickerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F97119622AB4AE140095D02F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF422DFCCD7A915C80243CB1 /* Pods_NiceSimplePicker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22D2EA484D62A92BC6711A1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DAD4F687EF2D6DD6893DF46 /* Pods_NiceSimplePicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FBE224966EBF86D9A16F6E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46401F5565CF644D51BBFDB0 /* Pods-NiceSimplePicker.debug.xcconfig */,
+				31BE07C275EB9901E0E0745D /* Pods-NiceSimplePicker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F94AB26F2AB4BBD7007FFE28 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F971197C2AB4AE730095D02F /* NiceSimplePickerView.swift */,
+				F94AB2702AB4BE16007FFE28 /* NiceSimplePickerCell.swift */,
+				F94AB2722AB4BE58007FFE28 /* NiceSimplePickerConfig.swift */,
+				F94AB2762AB4CAC4007FFE28 /* NiceSimplePickerDelegate.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F94AB27A2AB5AC3F007FFE28 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				F971196E2AB4AE140095D02F /* Main.storyboard */,
+				F971196C2AB4AE140095D02F /* ViewController.swift */,
+				F94AB2742AB4C486007FFE28 /* AnimalExampleConfigs.swift */,
+				F94AB2782AB5A965007FFE28 /* VehicleExampleConfigs.swift */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		F971195C2AB4AE140095D02F = {
+			isa = PBXGroup;
+			children = (
+				F97119672AB4AE140095D02F /* NiceSimplePicker */,
+				F97119662AB4AE140095D02F /* Products */,
+				4FBE224966EBF86D9A16F6E8 /* Pods */,
+				22D2EA484D62A92BC6711A1C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F97119662AB4AE140095D02F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F97119652AB4AE140095D02F /* NiceSimplePicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F97119672AB4AE140095D02F /* NiceSimplePicker */ = {
+			isa = PBXGroup;
+			children = (
+				F94AB26F2AB4BBD7007FFE28 /* Source */,
+				F94AB27A2AB5AC3F007FFE28 /* Example */,
+				F97119682AB4AE140095D02F /* AppDelegate.swift */,
+				F971196A2AB4AE140095D02F /* SceneDelegate.swift */,
+				F97119712AB4AE140095D02F /* Assets.xcassets */,
+				F97119732AB4AE140095D02F /* LaunchScreen.storyboard */,
+				F97119762AB4AE140095D02F /* Info.plist */,
+			);
+			path = NiceSimplePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F97119642AB4AE140095D02F /* NiceSimplePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F97119792AB4AE140095D02F /* Build configuration list for PBXNativeTarget "NiceSimplePicker" */;
+			buildPhases = (
+				0A58B62E9A117CDA6D076722 /* [CP] Check Pods Manifest.lock */,
+				F97119612AB4AE140095D02F /* Sources */,
+				F97119622AB4AE140095D02F /* Frameworks */,
+				F97119632AB4AE140095D02F /* Resources */,
+				7053E32FCFEF2BFEE55D04C9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NiceSimplePicker;
+			productName = NiceSimplePicker;
+			productReference = F97119652AB4AE140095D02F /* NiceSimplePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F971195D2AB4AE140095D02F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F97119642AB4AE140095D02F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F97119602AB4AE140095D02F /* Build configuration list for PBXProject "NiceSimplePicker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F971195C2AB4AE140095D02F;
+			productRefGroup = F97119662AB4AE140095D02F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F97119642AB4AE140095D02F /* NiceSimplePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F97119632AB4AE140095D02F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97119752AB4AE140095D02F /* LaunchScreen.storyboard in Resources */,
+				F97119722AB4AE140095D02F /* Assets.xcassets in Resources */,
+				F97119702AB4AE140095D02F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A58B62E9A117CDA6D076722 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NiceSimplePicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7053E32FCFEF2BFEE55D04C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiceSimplePicker/Pods-NiceSimplePicker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiceSimplePicker/Pods-NiceSimplePicker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NiceSimplePicker/Pods-NiceSimplePicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F97119612AB4AE140095D02F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F971197D2AB4AE730095D02F /* NiceSimplePickerView.swift in Sources */,
+				F971196D2AB4AE140095D02F /* ViewController.swift in Sources */,
+				F94AB2712AB4BE16007FFE28 /* NiceSimplePickerCell.swift in Sources */,
+				F94AB2792AB5A965007FFE28 /* VehicleExampleConfigs.swift in Sources */,
+				F94AB2772AB4CAC4007FFE28 /* NiceSimplePickerDelegate.swift in Sources */,
+				F97119692AB4AE140095D02F /* AppDelegate.swift in Sources */,
+				F971196B2AB4AE140095D02F /* SceneDelegate.swift in Sources */,
+				F94AB2732AB4BE58007FFE28 /* NiceSimplePickerConfig.swift in Sources */,
+				F94AB2752AB4C486007FFE28 /* AnimalExampleConfigs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F971196E2AB4AE140095D02F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F971196F2AB4AE140095D02F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F97119732AB4AE140095D02F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F97119742AB4AE140095D02F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F97119772AB4AE140095D02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F97119782AB4AE140095D02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F971197A2AB4AE140095D02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46401F5565CF644D51BBFDB0 /* Pods-NiceSimplePicker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 846TMZL7WC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NiceSimplePicker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jisukim.NiceSimplePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F971197B2AB4AE140095D02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31BE07C275EB9901E0E0745D /* Pods-NiceSimplePicker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 846TMZL7WC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NiceSimplePicker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jisukim.NiceSimplePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F97119602AB4AE140095D02F /* Build configuration list for PBXProject "NiceSimplePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97119772AB4AE140095D02F /* Debug */,
+				F97119782AB4AE140095D02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F97119792AB4AE140095D02F /* Build configuration list for PBXNativeTarget "NiceSimplePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F971197A2AB4AE140095D02F /* Debug */,
+				F971197B2AB4AE140095D02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F971195D2AB4AE140095D02F /* Project object */;
+}
