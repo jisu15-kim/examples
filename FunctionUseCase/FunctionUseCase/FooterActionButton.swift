@@ -52,7 +52,7 @@ class FooterActionButton: UIView {
         }
     }
     /// 트리플 탭 이벤트
-    var tripleTapEvent: (() -> Void)?
+    var tripleTapHandler: (() -> Void)?
     
     private lazy var actionButton: UIButton = {
         let button = UIButton(type: .system)
@@ -64,11 +64,11 @@ class FooterActionButton: UIView {
     
     
     //MARK: - Lifecycle
-    init(title: String, fontSize: CGFloat = 17, backgroundColor: UIColor, style: ButtonStyle, handler: (() -> Void)? = nil, tripleTapAction: (() -> Void)? = nil) {
+    init(title: String, fontSize: CGFloat = 17, backgroundColor: UIColor, style: ButtonStyle, handler: (() -> Void)? = nil, tripleTapHandler: (() -> Void)? = nil) {
         self.titleString = title
         self.viewBackgroundColor = backgroundColor
         self.tapHandler = handler
-        self.tripleTapEvent = tripleTapAction
+        self.tripleTapHandler = tripleTapHandler
         self.buttonStyle = style
         self.fontSize = fontSize
         super.init(frame: .zero)
@@ -114,16 +114,16 @@ class FooterActionButton: UIView {
         self.layer.shadowColor = UIColor.black.cgColor
     }
     
-    func setButtonTitle() {
+    private func setButtonTitle() {
         let attributeTitle = NSAttributedString(string: titleString, attributes: [.font: UIFont.boldSystemFont(ofSize: fontSize), .foregroundColor: UIColor.white])
         actionButton.setAttributedTitle(attributeTitle, for: .normal)
     }
     
     // 세번 클릭하면 tripleTapEvent 호출
-    func observeTapCount() {
+    private func observeTapCount() {
         if self.tapCount == 3 {
             // 함수형 프로그래밍 호출
-            self.tripleTapEvent?()
+            self.tripleTapHandler?()
             // delegate 방식 호출
             self.delegate?.tripleTapEvent()
         }

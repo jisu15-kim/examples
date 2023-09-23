@@ -36,7 +36,7 @@ class SecondViewController: UIViewController {
         }
         
         // 세번 눌림 액션 정의
-        self.footerButton.tripleTapEvent = { [weak self] in
+        self.footerButton.tripleTapHandler = { [weak self] in
             self?.tripleButtonTapEvent()
         }
     }

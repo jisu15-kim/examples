@@ -13,7 +13,7 @@ class FirstViewController: UIViewController {
     lazy var footerButton = FooterActionButton(title: "계속하기", fontSize: 18, backgroundColor: .systemIndigo, style: .inside(inset: 16)) { [weak self] in
         // 👇 여기서 버튼 클릭 액션을 정의합니다.
         self?.someAction()
-    } tripleTapAction: {
+    } tripleTapHandler: {
         // 👇 여기서 트리플 버튼 클릭 액션을 정의합니다.
         print("버튼이 세번 눌렸어요🔔")
     }
